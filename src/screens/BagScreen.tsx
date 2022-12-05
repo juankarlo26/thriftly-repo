@@ -196,7 +196,7 @@ const BagScreen: React.FC<BagScreenProps> = ({ navigation, route }) => {
                                 alignItems="center"
                             >
                                 <Text variant="body2">Total</Text>
-                                <Text variant="body2">{`${total} DT`}</Text>
+                                <Text variant="body2">{`${total} PHP`}</Text>
                             </Box>
                             <Box marginHorizontal="m">
                                 <Button

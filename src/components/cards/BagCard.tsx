@@ -123,7 +123,7 @@ const BagCard: React.FC<BagCardProps> = ({
                             />
                         </TouchableOpacity>
                     </Box>
-                    <Text variant="body">{`${bagItem.product.price} DT`}</Text>
+                    <Text variant="body">{`${bagItem.product.price} PHP`}</Text>
                 </Box>
             </Box>
         </Box>

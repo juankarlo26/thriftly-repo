@@ -36,10 +36,10 @@ const LoginScreen: React.FC<LoginScreenProps> = ({ navigation }) => {
                     />
                 </Box>
                 <Box >
-                    <Text variant="headline4" color="black" textAlign="center">
+                    <Text variant="headlineMont4" color="black" textAlign="center">
                         Sign In
                     </Text>
-                    <Text variant="description" mb="s" color="black" textAlign="center">
+                    <Text variant="descriptionMont" mb="s" color="black" textAlign="center">
                     Welcome to Thriftly! Login now
                     </Text>
                 </Box>
@@ -57,11 +57,11 @@ const LoginScreen: React.FC<LoginScreenProps> = ({ navigation }) => {
                     justifyContent="center"
                     alignItems="center"
                 >
-                    <Text variant="body">Don't Have an account?</Text>
+                    <Text variant="descriptionMont">Don't Have an account?</Text>
                     <TouchableOpacity
                         onPress={() => navigation.navigate("Register")}
                     >
-                        <Text marginLeft='m' variant="body2" color='primary'>Sign up</Text>
+                        <Text marginLeft='m' variant="bodyMont2" color='primary'>Sign up</Text>
                     </TouchableOpacity>
                 </Box>
             </Box>

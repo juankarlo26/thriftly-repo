@@ -104,7 +104,7 @@ const FavouriteCard: React.FC<FavouriteCardProps> = ({
                     paddingHorizontal="m"
                     justifyContent="space-between"
                 >
-                    <Text marginBottom='m' variant="body">{`${favouriteItem.product.price} DT`}</Text>
+                    <Text marginBottom='m' variant="body">{`${favouriteItem.product.price} PHP`}</Text>
                     {!is_in_bag && (
                         <Box
                             position="absolute"

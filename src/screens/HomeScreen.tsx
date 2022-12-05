@@ -63,10 +63,10 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ navigation, route }) => {
                         justifyContent="space-between"
                     >
                         <Box>
-                            <Text variant="headline" color="white">
+                            <Text variant="headlineMont" color="white">
                                 Welcome !
                             </Text>
-                            <Text variant="body" color="white">
+                            <Text variant="descriptionMont" color="white">
                                 Start typing!
                             </Text>
                         </Box>
@@ -112,7 +112,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ navigation, route }) => {
                                 <Ionicons
                                     name="search"
                                     size={25}
-                                    color={theme.colors.primary}
+                                    color={theme.colors.gray4}
                                 />
                             </Box>
                         </SharedElement>
@@ -227,7 +227,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ navigation, route }) => {
                 </Box>
                 <Box>
                     <Text margin="m" variant="body2" opacity={0.9}>
-                        RECEMENDED
+                        Recommended
                     </Text>
                     <TowColumnScrollView
                         marginBottom="l"
@@ -239,7 +239,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ navigation, route }) => {
                 </Box>
                 <Box>
                     <Text margin="m" variant="body2" opacity={0.9}>
-                        RECEMENDED
+                        Recommended
                     </Text>
                     <AnimatedScrollView
                         navigation={navigation}

@@ -123,7 +123,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
                     paddingHorizontal="m"
                     variant="body2"
                     marginVertical="s"
-                >{`${product.price} DT`}</Text>
+                >{`${product.price} PHP`}</Text>
             </Box>
         );
     // }

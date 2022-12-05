@@ -187,15 +187,15 @@ const OnBoardingScreen: React.FC<OnBoardingScreenProps> = ({
                                 style={{ maxWidth: width * 0.7 }}
                                 textAlign="center"
                                 marginVertical="l"
-                                variant="headline"
+                                variant="headlineMont"
                                 color="black"
                             >
-                                Introducing Thriftly !
+                                Introducing 
                             </Text>
                             <Text
                                 style={{ maxWidth: width * 0.7 }}
                                 textAlign="center"
-                                variant="description"
+                                variant="descriptionMont"
                                 color="black"
                             >
                                 We Filipino loves to bargain why not incorporate to an application.{" "}

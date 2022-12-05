@@ -65,7 +65,7 @@ const Input: React.FC<InputProps> = ({
                 {icon && icon}
             </Box>
             {error && (
-                <Text marginLeft="s" variant="description" color="error">
+                <Text marginLeft="s" variant="descriptionMont" color="error">
                     {error}
                 </Text>
             )}

@@ -24,7 +24,7 @@ const Button: React.FC<ButtonProps> = ({ title, onPress, variant, ...rest }) => 
                 borderWidth={variant === 'PRIMARY'?  0 : 1}
                 {...rest}
             >
-                <Text variant="body2" color={variant === 'PRIMARY' ? 'white' : undefined}>
+                <Text variant="bodyMont2" color={variant === 'PRIMARY' ? 'white' : undefined}>
                     {title}
                 </Text>
             </Box>

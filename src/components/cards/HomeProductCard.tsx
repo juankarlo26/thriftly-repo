@@ -34,9 +34,9 @@ const HomeProductCard: React.FC<HomeProductCardProps> = ({
     return (
         <Box
             width={product_width}
-            bg="primary"
+            bg="white"
             borderRadius="m"
-            marginHorizontal="m"
+            marginHorizontal="s"
             marginBottom="s"
             marginTop="m"
             {...rest}
@@ -67,7 +67,8 @@ const HomeProductCard: React.FC<HomeProductCardProps> = ({
                     </SharedElement>
                 </TouchableOpacity>
                 <Box p="m">
-                    <Text variant="small" fontWeight="bold">
+                    <Text variant="descriptionMont" 
+                    fontWeight="bold">
                         {product.name}
                     </Text>
                 </Box>
@@ -82,8 +83,8 @@ const HomeProductCard: React.FC<HomeProductCardProps> = ({
                 <Box>
                     <Text
                         variant="body"
-                        color="white"
-                    >{`${product.price}DT`}</Text>
+                        color="black"
+                    >{`${product.price} PHP`}</Text>
                 </Box>
                 <Box
                     flexDirection='row'

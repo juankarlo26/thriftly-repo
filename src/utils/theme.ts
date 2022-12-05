@@ -57,57 +57,97 @@ const theme = createTheme({
     largeTablet: 1024,
   },
   textVariants: {
+    headlineMont: {
+      fontFamily: "Montserrat-ExtraBold",
+      fontSize: 34,
+      lineHeight: 45,
+      color: "black"
+    },
+    headlineMont2: {
+      fontFamily: "Montserrat-Bold",
+      fontSize: 24,
+      lineHeight: 28.8,
+      color: "black"
+    },
+    headlineMont3: {
+      fontFamily: "Montserrat-Bold",
+      fontSize: 18,
+      lineHeight: 22,
+      color: "black"
+    },
+    headlineMont4: {
+      fontFamily: "Montserrat-Bold",
+      fontSize: 35,
+      lineHeight: 60,
+      color: "black"
+    },
+    bodyMont2: {
+      fontFamily: "Montserrat-Medium",
+      fontSize: 16,
+      lineHeight: 16,
+      color: "black"
+    },
+    descriptionMont: {
+      fontFamily: "Montserrat-Medium",
+      fontSize: 14,
+      lineHeight: 20,
+      color: "black",
+      opacity: 0.8
+    },
+
+
+
     headline: {
-      fontFamily: "Ubuntu-Bold",
+      fontFamily: "Montserrat-ExtraBold",
       fontSize: 34,
       lineHeight: 45,
       color: "black"
     },
     headline2: {
-      fontFamily: "Ubuntu-Medium",
+      fontFamily: "Montserrat-Bold",
       fontSize: 24,
       lineHeight: 28.8,
       color: "black"
     },
     headline3: {
-      fontFamily: "Ubuntu-Medium",
+      fontFamily: "Montserrat-Bold",
       fontSize: 18,
       lineHeight: 22,
       color: "black"
     },
     headline4: {
-      fontFamily: "Ubuntu-Bold",
+      fontFamily: "Montserrat-Bold",
       fontSize: 35,
       lineHeight: 60,
       color: "black"
     },
     body: {
-      fontFamily: "Ubuntu-Regular",
+      fontFamily: "Montserrat-Medium",
       fontSize: 14,
       lineHeight: 20,
       color: "black"
     },
     body2: {
-      fontFamily: "Ubuntu-Medium",
+      fontFamily: "Montserrat-Medium",
       fontSize: 16,
       lineHeight: 16,
       color: "black"
     },
     description: {
-      fontFamily: "Ubuntu-Regular",
+      fontFamily: "Montserrat-Medium",
       fontSize: 14,
       lineHeight: 20,
       color: "black",
       opacity: 0.8
     },
     small: {
-      fontFamily: "Ubuntu-Regular",
+      fontFamily: "Montserrat-Medium",
       fontSize: 11,
       lineHeight: 11,
       color: "black"
     },
     smallGray: {
-      fontFamily: "Ubuntu-Regular",
+      fontFamily: "Montserrat-Medium",
       fontSize: 11,
       lineHeight: 11,
       color: "gray"
